@@ -1,5 +1,6 @@
 def roll_call_dwarves(dwarves)
-  puts 
+  dwarves.each do |dwarf|
+    puts dwarf
 end
 
 def summon_captain_planet# code an argument here
@@ -32,3 +33,4 @@ describe "Cartoon Collections" do
       expect(output).to match(/3.*Bashful/)
     end
   end
+  
