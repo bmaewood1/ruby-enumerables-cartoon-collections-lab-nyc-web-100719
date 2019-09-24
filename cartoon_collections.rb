@@ -8,7 +8,8 @@ end
 
 roll_call_dwarves(dwarves)
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.collect { |call| 
   # Your code here
 end
 
